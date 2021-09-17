@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Image/hisruj14lil71.png) ;
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Lobster', 'cursive';
+  
+ 
+  
+}
+
+.main-context{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+p{
+   margin: 0;
+   color: red;
+}
+h1{
+    font-size: 2.3rem;
+}
+#name{
+    color:tomato;
+    text-shadow: px 2px rgb(50, 47, 255);
+}
+.btn:hover{
+    background-color: yellowgreen;
+    color: white;
+    border: 1px solid yellowgreen;
+    
+}
+.fas{
+    color: rgb(17, 14, 12);
+    font-size: 20px;
+ border-radius: 3px;
+    background-color: white;
+}
+.social-icons{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul>li{
+    padding: 10px;
+}
+img:hover{
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+#toggle-btn{
+position: absolute;
+right: 10px;
+top: 10px;
+background: lightsteelblue;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+
+footer{
+    height: 20vh;
+}
+#last{
+    color: white;
+    text-align: center;
+    margin: 15px 0 0 0px;
+}
+@media only screen and (max-width:500px){
+
+    .offcanvas.show {
+        width: 40%;
+        transform: none;
+        background: #f3f5f778;
+    }
+    .main-context{
+        height: 50vh;
+    }
+    footer{
+        height: 50vh;
+    }
+
+
+}
