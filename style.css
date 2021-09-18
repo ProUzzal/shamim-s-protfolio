@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(Image/hisruj14lil71.png) ;
+    background: url(Image/y2c3ttndctdz.jpg) ;
 background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    font-family: 'Lobster', 'cursive';
+    font-family: 'Raleway', sans-serif;
   
  
   
@@ -21,20 +21,29 @@ background-position: center;
     justify-content: center;
 }
 p{
-   margin: 0;
+   margin: 0px;
+   padding:0px;
+   font-size: 25px;
    color: red;
 }
 h1{
-    font-size: 2.3rem;
+    font-size: 4.3rem;
 }
 #name{
     color:tomato;
     text-shadow: px 2px rgb(50, 47, 255);
 }
+.btn-info {
+    /* padding: 7px; */
+    color: #070708;
+    font-weight: 600;
+    background-color: #49f00d;
+    border-color: #9eff0a;
+}
 .btn:hover{
-    background-color: yellowgreen;
+    background-color: #47cce6;
     color: white;
-    border: 1px solid yellowgreen;
+    border: 1px solid #32bacd;
     
 }
 .fas{
@@ -90,5 +99,24 @@ footer{
         height: 30vh;
         padding-top:50px;
     }
-
+    #created-btn {
+        padding: 4px;
+        color: #070708;
+        font-size: smaller;
+        font-weight: 600;
+        background-color: #49f00d;
+        border-color: #9eff0a;
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    p{
+        margin: 0px;
+        padding:0px;
+        font-size: 15px;
+        color: white;
+     }
+     .h6, h6 {
+        font-size: .7rem;
+    }
 }
